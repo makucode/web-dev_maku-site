@@ -1,0 +1,148 @@
+body {
+    font-family: 'Manrope', sans-serif;
+    background-color: #ececec;
+    text-align: center;
+    color: #222831;
+    margin: 0;
+}
+
+a {
+    color: #f2a365;
+}
+
+h2 {
+    color: #30475e;
+    font-size: 2em;
+}
+
+h3 {
+    color: #f2a365;
+    font-size: 1.6em;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-top-width: 0.7em;
+    width: 8em;
+    color: lightgrey;
+    margin: 5% auto;
+}
+
+.header_welc {
+    display: inline-block;
+    margin-right: 40%;
+    margin-left: 40%;
+    width: 20%;
+    font-family: 'Amatic SC', cursive;
+    color: #30475e;
+}
+
+.header_welc h1 {
+    margin-bottom: 0px;
+    display: block;
+    font-size: 5.625em;
+}
+
+.header_welc h4 {
+    text-align: right;
+    font-size: 2em;
+    margin-right: -25%;
+    margin-top: 0px;
+    display: inline-block;
+    font-weight: normal;
+}
+
+.profile img {
+    height: 220px;
+    margin-bottom: 5%;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+}
+
+.skill-row img {
+    width: 20%;
+    float: left;
+    margin-right: 5%;
+}
+
+.skill-row .prog-img {
+    float: right;
+    margin-right: 0;
+    margin-left: 5%;
+}
+
+.skill-row p {
+    text-align: left;
+    line-height: 2;
+}
+
+.contact-me p {
+    font-size: 1.1em;
+    margin: 1%;
+}
+
+.btn {
+    background: #30475E;
+    background-image: -webkit-linear-gradient(top, #30475E, #30475E);
+    background-image: -moz-linear-gradient(top, #30475E, #30475E);
+    background-image: -ms-linear-gradient(top, #30475E, #30475E);
+    background-image: -o-linear-gradient(top, #30475E, #30475E);
+    background-image: linear-gradient(to bottom, #30475E, #30475E);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #ECECEC;
+    font-size: 1em;
+    font-weight: 100;
+    padding: 20px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin: 2%;
+    margin-bottom: 3%;
+ }
+
+.bottom-container {
+    background-color: #30475e;
+    margin: 0;
+    padding: 50px 0 20px 0;
+}
+
+.bottom-container p {
+    color: #ECECEC;
+    font-size: 0.9em;
+    margin: 2%;
+}
+
+.bottom-container a {
+    text-decoration: none;
+    color: #222831;
+    font-size: 1.5em;
+    margin: 7%;
+    font-weight: bolder;
+}
+
+.bottom-container a:hover {
+    color: #f2a365;
+}
+
+#top-container {
+    position: relative;
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+
+#cloud2 {
+    margin-left: 25%;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+#cloud1 {
+    margin-right: 25%;
+}
